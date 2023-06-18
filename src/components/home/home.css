@@ -36,8 +36,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 140px;
-    height: 140px;
+    width: 129px;
+    height: 129px;
     border-radius: 50%;
     background-color: #ff69b4;
     color: #222222;
@@ -71,7 +71,7 @@
   }
   .small-circle:nth-child(3) {
     transform: translate(-50%, -50%) rotate(120deg) translate(0, -160px) rotate(-60deg);
-    border: 15px solid #FFFF00; 
+    border: 15px solid #f7e74c; 
     /* background-color: #FFFF00; */
   }
   .small-circle:nth-child(4) {

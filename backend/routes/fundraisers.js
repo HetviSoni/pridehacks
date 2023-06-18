@@ -16,6 +16,9 @@ router.get('/', async (req, res) => {
 // Create a new fundraiser
 router.post('/', async (req, res) => {
   try {
+    res.header('Access-Control-Allow-Origin','*');
+    res.header('Access-Control-Allow-Methods', 'POST,GET');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     const { title, description, targetAmount } = req.body;
     const fundraiser = new Fundraiser({ title, description, targetAmount });
     await fundraiser.save();

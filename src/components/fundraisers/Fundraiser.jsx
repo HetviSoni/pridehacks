@@ -4,14 +4,15 @@ import image2 from '../../assets/2.jpg';
 import './fundraiser.css';
 const FundraiserCard = (props) => {
   const navigate = useNavigate();
-    const { title, description, date, location, image } = props;
-  
+    const { title, description, image , targetAmount} = props;
+    const truncatedDescription = description.length > 100 ? description.slice(0, 100) + '...' : description;
     return (
       <div className='event'>
         {/* Display event details */}
-        <h3 className='event-title'>{title}</h3>
+        <h4 className='event-title'>{title}</h4>
         <img className='event-image' src={image} alt='Event' />
-        <p> {description}</p>
+        <p> {truncatedDescription}</p>
+        <p><h5 className="target">Target Amount: {targetAmount}</h5> </p>
         <button onClick={()=>navigate('/fundraisers/donate')} className="create-fundraiser-button create-event-button">Donate Now</button>
         {/* <p>{description}</p> */}
   
@@ -63,13 +64,11 @@ const FundraiserCard = (props) => {
                 description={event.description}
                 date={event.date}
                 location={event.location}
-                image={image2} // You can update this to use the event-specific image if available
+                targetAmount={event.targetAmount}
+                image={image2} 
               />
             ))}
-          {/* <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-          <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-          <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-          <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} /> */}
+        
         </div>
         
          

@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import './createevent.css';
+import { useNavigate } from 'react-router-dom';
 
 const CreateEvent = () => {
-    //   const [title, setTitle] = useState('');
-    //   const [description, setDescription] = useState('');
-    //   const [date, setDate] = useState('');
-    //   const [location, setLocation] = useState('');
+    const navigate = useNavigate();
       const [image, setImage] = useState(null);
     const [formData, setFormData] = useState({
         title: '',
@@ -21,7 +19,6 @@ const CreateEvent = () => {
             [id]: value
         }));
     };
-    const upcoming = true;
     const handleSubmit = async (e) => {
         e.preventDefault();
     
@@ -49,6 +46,7 @@ const CreateEvent = () => {
             if (response.ok) {
                 const data = await response.json();
                 console.log("this is res " + JSON.stringify(data));
+                navigate('/events');
             } else {
                 throw new Error('Request failed');
             }
