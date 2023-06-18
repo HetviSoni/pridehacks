@@ -26,7 +26,7 @@
 | Installation  | [Installation](#installation) |
 | Screenshots   | [Screenshots](#screenshots) |
 | Contributing  | [Contributing](#contributing) |
-| License       | [License](#license) |
+| Contributors      | [License](#contributors) |
 
 </div>
 
@@ -92,8 +92,11 @@ A platform that not only celebrates diversity but also provides practical resour
 
 This repository is a submission for Pride Hacks by MLH, with a commitment to ongoing development beyond the hackathon. We actively encourage the community to contribute by raising issues and creating pull requests, fostering collaboration and inclusivity. Together, we can improve the project, embrace diverse perspectives, and create an impactful application. Join us in making a positive difference through your valued contributions.
 
-## License
-This repository is licensed under the [MIT License](LICENSE).
+## Contributors
+- [@HetviSoni](https://github.com/HetviSoni) - Frontend development
+- [@aviiciii](https://github.com/aviiciii) - Backend development
+
+
 
 
 
