@@ -4,5 +4,32 @@
 }
 .target{
     font-family: 'Poppins', sans-serif;
-    
+}
+
+.event-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+}
+
+.event p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.create-event-button{
+    cursor: pointer;
+}
+
+.donate-now{
+    /* center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    /* place button end of parent div */
+    cursor: pointer;
 }
