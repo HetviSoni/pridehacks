@@ -26,7 +26,7 @@
 | Installation  | [Installation](#installation) |
 | Screenshots   | [Screenshots](#screenshots) |
 | Contributing  | [Contributing](#contributing) |
-| Contributors      | [License](#contributors) |
+| Contributors      | [Contributors](#contributors) |
 
 </div>
 
