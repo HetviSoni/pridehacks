@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1 style="text-align: center;">🏳️‍🌈Rainbow Ally 🏳️‍🌈</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h2>Celebrating Unity and Empowering the LGBTQ+ Community</h2>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src=https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=997&color=pink&background=992AFF00&multiline=true&width=435&lines=MADE+FOR+PrideHacks alt="Typing SVG">
+  </a>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
 
-### `npm run build`
+- [Description](#Description)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [ACKNOWLEDGMENTS](#ACKNOWLEDGMENTS)
+- [Miscellaneous](#Miscellaneous)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Description
+A platform that not only celebrates diversity but also provides practical resources and connections for the community✌️. By fostering allyship, amplifying voices, and encouraging engagement, we aim to empower individuals and promote positive change.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **User-friendly Interface:** The web application provides a simple and intuitive interface🤓.
 
-### `npm run eject`
+- **Events**: Stay up to date with upcoming and past events happening worldwide. Create and volunteer for events that resonate with the LGBTQ+ community🎉.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Fundraisers**: Support various fundraising initiatives dedicated to advancing LGBTQ+ causes. Donate to existing campaigns or create your own funding request to make a positive impact💸.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **News**: Explore a curated collection of news articles related to the LGBTQ+ community from reliable sources. Stay informed and engaged with the latest updates, stories, and achievements📰.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Hangout**: Connect with community members through voice and video calls, chat, and interactive streaming. Engage in meaningful conversations and create lasting bonds😜.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies
 
-## Learn More
+- Frontend: ReactJS, HTML, CSS, JavaScript
+- Backend: Node.js
+- Real-time Communication: WebRTC API
+- News Integration: NewsAPI
+- Data Storage: MongoDB Atlas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository: `https://github.com/HetviSoni/pridehacks`
+2. Install dependencies for the frontend: `cd pridehacks && npm install`
+3. Install dependencies for the backend: `cd backend && npm install`
+4. Set up the MongoDB Atlas connection and configure the necessary environment variables.
+5. Start the frontend server: `cd pridehacks && npm start`
+6. Start the backend server: `cd backend && nodemon app.js`
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+                      
+## Team Contact
