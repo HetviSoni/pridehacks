@@ -16,15 +16,22 @@
 
 
 ## Table of Contents
+<div align="center">
 
-- [Description](#Description)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
+| Section       | Link            |
+|---------------|-----------------|
+| Description   | [Description](#description) |
+| Features      | [Features](#features) |
+| Technologies  | [Technologies](#technologies) |
+| Installation  | [Installation](#installation) |
+| Screenshots   | [Screenshots](#screenshots) |
+| Contributing  | [Contributing](#contributing) |
+| License       | [License](#license) |
+
+</div>
 
 
+<br></br>
 ## Description
 A platform that not only celebrates diversity but also provides practical resources and connections for the community✌️. By fostering allyship, amplifying voices, and encouraging engagement, we aim to empower individuals and promote positive change.
 
@@ -56,6 +63,24 @@ A platform that not only celebrates diversity but also provides practical resour
 4. Set up the MongoDB Atlas connection and configure the necessary environment variables.
 5. Start the frontend server: `cd pridehacks && npm start`
 6. Start the backend server: `cd backend && nodemon app.js`
+
+## Screenshots
+
+
+<img width="450" alt="Screenshot 2023-06-18 145229" src="https://github.com/HetviSoni/pridehacks/assets/76479104/c40d6555-a708-4cad-b316-e2edec0e456a">
+<img width="450" alt="Screenshot 2023-06-18 145317" src="https://github.com/HetviSoni/pridehacks/assets/76479104/8a6d2f9e-40e2-4663-8ee8-68abde34f09f">
+
+<img width="450" alt="Screenshot 2023-06-18 145454" src="https://github.com/HetviSoni/pridehacks/assets/76479104/5a7264e2-034d-4105-a2f2-4fa4e62cb7c8">
+<img width="450" alt="Screenshot 2023-06-18 174518" src="https://github.com/HetviSoni/pridehacks/assets/76479104/817e9758-a93a-46a7-bb4e-5ce3ae877331">
+<img width="450" alt="Screenshot 2023-06-18 145518" src="https://github.com/HetviSoni/pridehacks/assets/76479104/79ac71a6-2a12-40ac-aea8-defb464b4e06">
+
+<img width="450" alt="Screenshot 2023-06-18 145658" src="https://github.com/HetviSoni/pridehacks/assets/76479104/57499f99-3c6d-4e53-91ae-c18497fd91fe">
+
+
+
+
+
+
 
 ## Contributing
 
