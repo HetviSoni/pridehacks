@@ -23,13 +23,3 @@
 .create-event-button{
     cursor: pointer;
 }
-
-.donate-now{
-    /* center */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    /* place button end of parent div */
-    cursor: pointer;
-}

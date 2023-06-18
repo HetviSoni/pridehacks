@@ -47,28 +47,28 @@ const NewsCard = ({ newsItem }) => {
 const NewsContainer = () => {
     const [newsData, setNewsData] = useState([]);
 
-    // useEffect(() => {
-    //     const fetchNewsData = async () => {
-    //         try {
-    //             const response = await fetch('https://newsdata.io/api/1/news?apikey=pub_246447cf9e9ff1cd77c3b00c5de1ff01d507a&q=lgbtq%20AND%20pride&language=en ');
-    //             const data = await response.json();
-    //             setNewsData(data.results);
-    //         } catch (error) {
-    //             console.error('Error fetching news data:', error);
-    //         }
-    //     };
+    useEffect(() => {
+        const fetchNewsData = async () => {
+            try {
+                const response = await fetch('https://newsdata.io/api/1/news?apikey=pub_246447cf9e9ff1cd77c3b00c5de1ff01d507a&q=lgbtq%20AND%20pride&language=en ');
+                const data = await response.json();
+                setNewsData(data.results);
+            } catch (error) {
+                console.error('Error fetching news data:', error);
+            }
+        };
 
-    //     fetchNewsData();
-    // }, []);
+        fetchNewsData();
+    }, []);
     return (
         <div className='news-container'>
             <h2>News</h2>
 
-            {/* <div>
+            <div>
                 {newsData.map((newsItem, index) => (
                     <NewsCard key={index} newsItem={newsItem} />
                 ))}
-            </div> */}
+            </div>
             {/* <div>
                 <NewsCard
                     image_url="https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg"
