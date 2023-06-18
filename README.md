@@ -23,8 +23,7 @@
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
-- [ACKNOWLEDGMENTS](#ACKNOWLEDGMENTS)
-- [Miscellaneous](#Miscellaneous)
+
 
 ## Description
 A platform that not only celebrates diversity but also provides practical resources and connections for the community✌️. By fostering allyship, amplifying voices, and encouraging engagement, we aim to empower individuals and promote positive change.
@@ -58,6 +57,14 @@ A platform that not only celebrates diversity but also provides practical resour
 5. Start the frontend server: `cd pridehacks && npm start`
 6. Start the backend server: `cd backend && nodemon app.js`
 
+## Contributing
 
-                      
-## Team Contact
+This repository is a submission for Pride Hacks by MLH, with a commitment to ongoing development beyond the hackathon. We actively encourage the community to contribute by raising issues and creating pull requests, fostering collaboration and inclusivity. Together, we can improve the project, embrace diverse perspectives, and create an impactful application. Join us in making a positive difference through your valued contributions.
+
+## License
+This repository is licensed under the [MIT License](LICENSE).
+
+
+
+
+
