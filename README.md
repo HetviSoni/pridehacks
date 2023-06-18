@@ -67,17 +67,17 @@ A platform that not only celebrates diversity but also provides practical resour
 ## Screenshots
 
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; flex-direction:row; justify-content: center;">
   <img style="width: 430px; margin-right: 10px;" alt="Screenshot 1" src="https://github.com/HetviSoni/pridehacks/assets/76479104/c40d6555-a708-4cad-b316-e2edec0e456a">
   <img style="width: 430px;" alt="Screenshot 2" src="https://github.com/HetviSoni/pridehacks/assets/76479104/8a6d2f9e-40e2-4663-8ee8-68abde34f09f">
 </div>
 
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; flex-direction:row; justify-content: center;">
   <img style="width: 430px; margin-right: 10px;" alt="Screenshot 3" src="https://github.com/HetviSoni/pridehacks/assets/76479104/5a7264e2-034d-4105-a2f2-4fa4e62cb7c8">
   <img style="width: 430px;" alt="Screenshot 4" src="https://github.com/HetviSoni/pridehacks/assets/76479104/817e9758-a93a-46a7-bb4e-5ce3ae877331">
 </div>
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; flex-direction:row; justify-content: center;">
   <img style="width: 430px; margin-right: 10px;" alt="Screenshot 5" src="https://github.com/HetviSoni/pridehacks/assets/76479104/79ac71a6-2a12-40ac-aea8-defb464b4e06">
   <img style="width: 430px;" alt="Screenshot 6" src="https://github.com/HetviSoni/pridehacks/assets/76479104/57499f99-3c6d-4e53-91ae-c18497fd91fe">
 </div>
