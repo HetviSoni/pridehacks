@@ -7,13 +7,6 @@
 
 
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src=https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=997&color=pink&background=992AFF00&multiline=true&width=435&lines=MADE+FOR+PrideHacks alt="Typing SVG">
-  </a>
-</p>
-
-
 
 ## Table of Contents
 <div align="center">
