@@ -18,9 +18,6 @@ app.use(express.json());
 // Routes
 app.use('/api/events', eventsRouter);
 app.use('/api/fundraisers', fundraisersRouter);
-// app.use('/', (req, res) => {
-//     res.send('Hello World');
-// });
 
 // Start the server
 app.listen(PORT, () => {

@@ -1,8 +1,10 @@
+const dotenv = require("dotenv").config();
 const mongoose = require('mongoose');
+const connectionString = process.env.CONNECTION_STRING;
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://hetvi:pridehacks@cluster0.9pcyb59.mongodb.net/', {
+    await mongoose.connect(connectionString, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
