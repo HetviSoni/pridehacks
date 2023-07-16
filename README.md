@@ -7,24 +7,24 @@
 
 
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src=https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=997&color=pink&background=992AFF00&multiline=true&width=435&lines=MADE+FOR+PrideHacks alt="Typing SVG">
-  </a>
-</p>
-
-
 
 ## Table of Contents
+<div align="center">
 
-- [Description](#Description)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
+| Section       | Link            |
+|---------------|-----------------|
+| Description   | [Description](#description) |
+| Features      | [Features](#features) |
+| Technologies  | [Technologies](#technologies) |
+| Installation  | [Installation](#installation) |
+| Screenshots   | [Screenshots](#screenshots) |
+| Contributing  | [Contributing](#contributing) |
+| Contributors      | [Contributors](#contributors) |
+
+</div>
 
 
+<br></br>
 ## Description
 A platform that not only celebrates diversity but also provides practical resources and connections for the community✌️. By fostering allyship, amplifying voices, and encouraging engagement, we aim to empower individuals and promote positive change.
 
@@ -57,12 +57,39 @@ A platform that not only celebrates diversity but also provides practical resour
 5. Start the frontend server: `cd pridehacks && npm start`
 6. Start the backend server: `cd backend && nodemon app.js`
 
+## Screenshots
+
+
+<div style="display: flex; flex-direction:row; justify-content: center;">
+  <img style="width: 410px; margin-right: 10px;" alt="Screenshot 1" src="https://github.com/HetviSoni/pridehacks/assets/76479104/c40d6555-a708-4cad-b316-e2edec0e456a">
+  <img style="width: 410px;" alt="Screenshot 2" src="https://github.com/HetviSoni/pridehacks/assets/76479104/8a6d2f9e-40e2-4663-8ee8-68abde34f09f">
+</div>
+
+
+<div style="display: flex; flex-direction:row; justify-content: center;">
+  <img style="width: 410px; margin-right: 10px;" alt="Screenshot 3" src="https://github.com/HetviSoni/pridehacks/assets/76479104/5a7264e2-034d-4105-a2f2-4fa4e62cb7c8">
+  <img style="width: 410px;" alt="Screenshot 4" src="https://github.com/HetviSoni/pridehacks/assets/76479104/817e9758-a93a-46a7-bb4e-5ce3ae877331">
+</div>
+<div style="display: flex; flex-direction:row; justify-content: center;">
+  <img style="width: 410px; margin-right: 10px;" alt="Screenshot 5" src="https://github.com/HetviSoni/pridehacks/assets/76479104/79ac71a6-2a12-40ac-aea8-defb464b4e06">
+  <img style="width: 410px;" alt="Screenshot 6" src="https://github.com/HetviSoni/pridehacks/assets/76479104/57499f99-3c6d-4e53-91ae-c18497fd91fe">
+</div>
+
+
+
+
+
+
+
 ## Contributing
 
-This repository is a submission for Pride Hacks by MLH, with a commitment to ongoing development beyond the hackathon. We actively encourage the community to contribute by raising issues and creating pull requests, fostering collaboration and inclusivity. Together, we can improve the project, embrace diverse perspectives, and create an impactful application. Join us in making a positive difference through your valued contributions.
+ We actively encourage the community to contribute by raising issues and creating pull requests, fostering collaboration and inclusivity. Together, we can improve the project, embrace diverse perspectives, and create an impactful application. Join us in making a positive difference through your valued contributions.
 
-## License
-This repository is licensed under the [MIT License](LICENSE).
+## Contributors
+- [@HetviSoni](https://github.com/HetviSoni) - Frontend development
+- [@aviiciii](https://github.com/aviiciii) - Backend development
+
+
 
 
 
