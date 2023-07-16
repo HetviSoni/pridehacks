@@ -7,14 +7,10 @@ const EventCard = (props) => {
 
   return (
     <div className='event'>
-      {/* Display event details */}
       <h3 className='event-title'>{title}</h3>
       <img className='event-image' src={image} alt='Event' />
       <p>Date: {date}</p>
       <p>Location: {location}</p>
-      {/* <p>{description}</p> */}
-
-
     </div>
   );
 };
@@ -55,7 +51,7 @@ const Events = () => {
 
       <div className="upcoming">
         {events
-          .filter(event => event.upcoming) // Filter events with upcoming=true
+          .filter(event => event.upcoming)
           .map((event, index) => (
             <EventCard
               key={index}
@@ -63,13 +59,10 @@ const Events = () => {
               description={event.description}
               date={event.date}
               location={event.location}
-              image={image2} // You can update this to use the event-specific image if available
+              image={event.image==null? image2:event.image} 
             />
           ))}
-        {/* <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-        <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-        <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-        <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} /> */}
+        
       </div>
       <h2>Past Events</h2>
 
@@ -83,13 +76,9 @@ const Events = () => {
               description={event.description}
               date={event.date}
               location={event.location}
-              image={image2} // You can update this to use the event-specific image if available
+              image={event.image==null? image2:event.image} // You can update this to use the event-specific image if available
             />
           ))}
-        {/* <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-        <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-        <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} />
-        <EventCard title="Event Title" description="Event Description" date="Event Date" location="Event Location" image={image2} /> */}
       </div>
     </div>
   )

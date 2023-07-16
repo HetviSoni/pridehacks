@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 const CreateFundraiser = () => {
     const navigate = useNavigate();
-      const [image, setImage] = useState(null);
+    //   const [image, setImage] = useState(null);
     const [formData, setFormData] = useState({
         title: '',
         description: '',
@@ -52,7 +52,7 @@ const CreateFundraiser = () => {
     
     const handleImageChange = (e) => {
         const file = e.target.files[0];
-        setImage(file);
+        // setImage(file);
     };
 
     return (
@@ -90,7 +90,6 @@ const CreateFundraiser = () => {
                         type="date"
                         name='date'
                         value={formData.date}
-                        // onChange={(e) => setDate(e.target.value.toString())}
                         onChange={handleFormChange}
                         required
                     />

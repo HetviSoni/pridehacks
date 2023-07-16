@@ -3,8 +3,20 @@ import './createevent.css';
 import { useNavigate } from 'react-router-dom';
 
 const CreateEvent = () => {
+    function convertToBase64(file) {
+        return new Promise((resolve, reject) => {
+            const fileReader = new FileReader();
+            fileReader.readAsDataURL(file);
+            fileReader.onload = () => {
+                resolve(fileReader.result);
+            };
+            fileReader.onerror = (error) => {
+                reject(error);
+            }
+        })
+    }
     const navigate = useNavigate();
-      const [image, setImage] = useState(null);
+    const [image, setImage] = useState({myfile:""});
     const [formData, setFormData] = useState({
         title: '',
         description: '',
@@ -37,6 +49,7 @@ const CreateEvent = () => {
                     description: formData.description,
                     date: formData.date,
                     location: formData.location,
+                    image: image.myfile,
                     upcoming: true
                 })
             });
@@ -56,9 +69,12 @@ const CreateEvent = () => {
         }
     };
     
-    const handleImageChange = (e) => {
+    const handleImageChange = async(e) => {
         const file = e.target.files[0];
-        setImage(file);
+        const base64 = await convertToBase64(file);
+        setImage({...image,myfile:base64});
+        console.log(base64+"this is base64");
+        // setImage(file);
     };
 
     return (
@@ -96,7 +112,6 @@ const CreateEvent = () => {
                         type="date"
                         name='date'
                         value={formData.date}
-                        // onChange={(e) => setDate(e.target.value.toString())}
                         onChange={handleFormChange}
                         required
                     />
@@ -115,7 +130,7 @@ const CreateEvent = () => {
                 </div>
                 <div>
                     <label htmlFor="image">Image:</label>
-                    <input type="file" id='image' name='image' onChange={handleImageChange} required />
+                    <input type="file" id='image' name='image' accept='.jpeg,.png,.jpg' onChange={handleImageChange} required />
                 </div>
                 <button className="create-event-button" type="submit">
                     Create

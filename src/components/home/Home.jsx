@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 const HomePage = () => {
     const handleDivClick = () => {
         // Redirect the user to the desired website
-        window.location.href = 'http://127.0.0.1:5500/pridehacks/public/hangout.html';
+        window.location.href = 'http://127.0.0.1:5500/public/hangout.html';
       };
     const carouselSettings = {
         // dots: true,

@@ -3,10 +3,6 @@ import React from 'react';
 const Donate = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
-
-    // Handle the payment submission using the Stripe API
-    // Access the Stripe object or perform other necessary actions
-
     console.log('Payment submitted');
   };
 
