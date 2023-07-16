@@ -24,8 +24,8 @@ router.post('/', async (req, res) => {
     res.header('Access-Control-Allow-Methods', 'POST');
     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     // res.header('Access-Control-Allow-Credentials', 'true');
-    const { title, description, date,location, upcoming} = req.body;
-    const event = new Event({ title, description, date,location, upcoming });
+    const { title, description, date,location, upcoming, image} = req.body;
+    const event = new Event({ title, description, date,location, upcoming, image });
     
     await event.save();
     res.status(201).json(event);
