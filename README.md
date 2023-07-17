@@ -5,7 +5,11 @@
 
 <h2>Celebrating Unity and Empowering the LGBTQ+ Community</h2>
 
-
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src=https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=997&color=pink&background=992AFF00&multiline=true&width=435&lines=MADE+FOR+PrideHacks alt="Typing SVG">
+  </a>
+</p>
 
 
 ## Table of Contents
@@ -45,7 +49,7 @@ A platform that not only celebrates diversity but also provides practical resour
 - Frontend: ReactJS, HTML, CSS, JavaScript
 - Backend: Node.js
 - Real-time Communication: WebRTC API
-- News Integration: NewsAPI
+- News Integration: NewsdataAPI
 - Data Storage: MongoDB Atlas
 
 ## Installation
@@ -86,8 +90,8 @@ A platform that not only celebrates diversity but also provides practical resour
  We actively encourage the community to contribute by raising issues and creating pull requests, fostering collaboration and inclusivity. Together, we can improve the project, embrace diverse perspectives, and create an impactful application. Join us in making a positive difference through your valued contributions.
 
 ## Contributors
-- [@HetviSoni](https://github.com/HetviSoni) - Frontend development
-- [@aviiciii](https://github.com/aviiciii) - Backend development
+- [@HetviSoni](https://github.com/HetviSoni) 
+- [@aviiciii](https://github.com/aviiciii) 
 
 
 
